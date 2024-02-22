@@ -7,6 +7,6 @@ export default defineConfig({
   plugins: [react(), tsconfigPaths(), ViteMinifyPlugin({})],
   server: {
     port: 3000,
-    base: "/node_front_fs_88_chertik77"
-  }
+  },
+  base: "/node_front_fs_88_chertik77/"
 })
